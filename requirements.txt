@@ -1,0 +1,21 @@
+# Hill Climb RL Agent - Mac Requirements
+# Install with: pip3 install -r requirements.txt
+
+# Core RL
+stable-baselines3[extra]
+gymnasium
+
+# Computer vision & screen capture
+opencv-python
+mss
+
+# Keyboard control (works on Mac with Accessibility permission)
+pynput
+
+# Optional: OCR for start screen detection
+# Uncomment below if you install Tesseract:
+# brew install tesseract  (run this in Terminal first)
+# pytesseract
+
+# Utilities
+numpy
